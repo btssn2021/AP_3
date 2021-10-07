@@ -28,7 +28,7 @@ int main() {
     }
     printf("\nla somme est:%d",sommed);
     /*********************************Exercice n°4******************************************/
-    int somme=0,nombre=0;
+    /*int somme=0,nombre=0;
     const int nbchiffre=10;
     printf("Entrez les %d nombres\n",nbchiffre);
     for(int i=1;i<=nbchiffre;i++)
@@ -39,5 +39,18 @@ int main() {
     }
     printf("La somme des %d nombres est:%d\n",nbchiffre,somme);
     printf("La moyenne est de:%0.2f",somme/(float)nbchiffre);
+    /*****************************Exercice n°5************************************************/
+    int nbterme;
+    printf("Nombre de termes en entrée:\n");
+    scanf("%d",&nbterme);
+    for(int i=1;i<=nbterme;i++)
+    {
+        printf("Le nombre est: %d et le cube de %d est:%d\n",i,i,i*i*i);
+
+    }
+    /**************************Exercice n°6****************************************************/
+
+
+
     return 0;
 }
